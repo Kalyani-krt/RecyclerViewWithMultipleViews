@@ -4,7 +4,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 class ChatAdapter(val messages:List<ChatMessage>):RecyclerView.Adapter<RecyclerView.ViewHolder>(){
-
+    //created static like constants
     private companion object{
         const val TYPE_SENT=1
         const val TYPE_RECEIVED=2
